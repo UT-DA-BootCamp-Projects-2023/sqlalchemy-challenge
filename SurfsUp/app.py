@@ -46,11 +46,11 @@ def welcome():
     return (
         f"Welcom to Honolulu, Hawaii Climate APP<br/>" 
         f"Available Routes:<br/>"
-        f"1.) /api/v1.0/precipitation  - gives precipitation analysis<br/>"
-        f"2.) /api/v1.0/stations       - gives list of stations<br/>"
-        f"3.) /api/v1.0/tobs           - gives one year of temprature data for the most active station<br/>"
-        f"4.) /api/v1.0/<start_date>   - gives Min,Max,Avg Temprature from the Start date use yyyy-mm-dd date foramt<br/>"
-        f"5.) /api/v1.0/<start>/<end>  - gives Min,Max,Avg Temprature for given date range(start/end) use yyyy-mm-dd date foramt<br/>"
+        f"1.) /api/v1.0/precipitation  - gives precipitation analysis <br/>"
+        f"2.) /api/v1.0/stations       - gives list of stations <br/>"
+        f"3.) /api/v1.0/tobs           - gives one year of temperature data for the most active station <br/>"
+        f"4.) /api/v1.0/<start_date>   - gives Min,Max,Avg temperature from the Start date use yyyy-mm-dd date format <br/>"
+        f"5.) /api/v1.0/<start>/<end>  - gives Min,Max,Avg temperature for given date range(start/end) use yyyy-mm-dd date format <br/>"
     )
 
 # precipitation route - returns json with the date as the key and the value as the precipitation for the last year in the database
