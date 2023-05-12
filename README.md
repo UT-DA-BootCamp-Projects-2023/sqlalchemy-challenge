@@ -21,17 +21,17 @@
   1. Open the app.py using visual Studio Code
   2. Make sure the terminal shows the correct folder path where this app.py is present. if not navigate to that folder. 
    Refer Python_Checklist.pdf for detailed step by step process.
-  3. Run the python script and view the output in the browser http://127.0.0.1:5000/ and try out below 5 API routes to view the individual route response
-    * /api/v1.0/precipitation - gives precipitation analysis
-    * /api/v1.0/stations - gives list of stations
-    * /api/v1.0/tobs - gives one year of temperature data for the most active station
-    * /api/v1.0/<start_date>   - gives Min,Max,Avg Temperature from the Start date use yyyy-mm-dd date format
-    * /api/v1.0/<start>/<end> - gives Min,Max,Avg Temperature for given date range(start/end) use yyyy-mm-dd date format
-  All 5 API route JSON response along with welcome page is saved in output folder. Please refer the below pdf<br>
-    * API_WelcomePage.pdf
-    * API_Precipitation_JSON_Response.pdf
-    * API_Stations_JSON_Response.pdf
-    * API_TOBs_JSON_Response.pdf
-    * DynaminAPI_start_date_JSON_Response.pdf
+  3. Run the python script and view the output in the browser http://127.0.0.1:5000/ and try out below 5 API routes to view the individual route response<br>
+    * /api/v1.0/precipitation - gives precipitation analysis<br>
+    * /api/v1.0/stations - gives list of stations<br>
+    * /api/v1.0/tobs - gives one year of temperature data for the most active station<br>
+    * /api/v1.0/<start_date>   - gives Min,Max,Avg Temperature from the Start date use yyyy-mm-dd date format<br>
+    * /api/v1.0/<start>/<end> - gives Min,Max,Avg Temperature for given date range(start/end) use yyyy-mm-dd date format<br>
+  All 5 API route JSON response along with welcome page is saved in output folder. Please refer the below pdf for JSON response file<br>
+    * API_WelcomePage.pdf<br>
+    * API_Precipitation_JSON_Response.pdf<br>
+    * API_Stations_JSON_Response.pdf<br>
+    * API_TOBs_JSON_Response.pdf<br>
+    * DynaminAPI_start_date_JSON_Response.pdf<br>
     * DynaminAPI_start_date_end_date_JSON_Response.pdf
 
